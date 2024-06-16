@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+<!-- page loader start -->
+<div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<!-- page loader end -->
+
+
+<!-- background circles start -->
+<div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+</div>
+<!-- background circles end -->
+
+
+<!-- overlay start -->
+<div class="overlay">
+</div>
+<!-- overlay end -->
+
+<!-- main start -->
+<div class="main">
+
+    <!-- header start -->
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="#home" class="nav-item link-item">home</a></li>
+                            <li><a href="#about" class="nav-item link-item">about</a></li>
+                            <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                            <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- home section start -->
+    <section class="home-section align-items-center" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello, I'm</p>
+                    <h1>Mansi Ladani</h1>
+                    <a href="#about" class="btn link-item">more about me</a>
+                    <a href="#portfolio" class="btn link-item">Portfolio</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="img/profile-img.jpeg" alt="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about-section sec-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>about me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="img/profile-img.jpeg" alt="about img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Hello! I am Mansi Ladani, currently pursuing my Master of Computer Applications (MCA) with a passion for technology and innovation. I have a keen interest in fullstack and flutter , which has driven my academic pursuits and personal projects.
+                        
+                       I am eager to apply my skills to real-world challenges. Throughout my academic journey, I have developed android application based on online education.
+                        
+                       My goal is to leverage my technical knowledge and problem-solving abilities . Thank you for visiting my portfolio, and I look forward to connecting with you!</p>
+
+                    <h3>skills</h3>
+                    <div class="skills">
+                        <div class="skill-item">html</div>
+                        <div class="skill-item">css</div>
+                        <div class="skill-item">javascript</div> 
+                        <div class="skill-item">php</div>
+                        <div class="skill-item">java</div>
+                        <div class="skill-item">python</div>
+                        <div class="skill-item">flutter</div>
+                        <div class="skill-item">c</div>
+                        <div class="skill-item">c++</div>
+                    </div>
+                    <div class="about-tabs">
+                        <button type="button" class="tab-item active" data-target="#education">education</button>
+                        <!-- <button type="button" class="tab-item" data-target="#experience">experience</button> -->
+                    </div>                    
+                    <!-- Education Start -->
+                    <div class="tab-content active" id="education">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2018</span>
+                                <h4>10TH (secondary school examination) - <span>l.p.savani School</span></h4>
+                                <p>Percentage : 79%</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2020 </span>
+                                <h4>12TH Science ( Higher secondary school examination) - <span> P.P.Savani Vidhyabhavan </span></h4>
+                                <p>Percentage : 54%</p>
+                                <p>JEE  mains Score: 78.28</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2023</span>
+                                <h4>BCA ( bachelor of computer application ) - <span>s.v.patel college</span></h4>
+                                <p>Percentage : 77.4%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Education End -->
+                    
+                    <!-- Experience Start -->
+                    <!-- <div class="tab-content" id="experience">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2020-2023</span>
+                                <h4> <span></span></h4>
+                                <p></p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2020-2023</span>
+                                <h4 <span></span></h4>
+                                <p></p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2020-2023</span>
+                                <h4> <span></span></h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Experience End -->
+                    <a href="cv.pdf" target="_blank" class="btn">download cv</a>
+                    <a href="#contact" class="btn link-item">contact me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end --> 
+
+    <!-- portfolio section start --> 
+    <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>my work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- portfolio item start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/1.jpg" alt="portfolio">
+                    </div>
+                    <h3 class="portfolio-item-title">
+                        online edu mobile application
+
+                        <!-- education course website -->
+                    
+                    </h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Welcome to online education application , an innovative online education platform offering comprehensive resources for students from Standard 1 to 10 across Gujarati, English, and Hindi mediums. Our platform provides a library of textbooks, assignments, and supplementary materials for all subjects, enhancing the learning experience. We also feature interactive tools like  chat and discussion forums, enabling real-time communication and collaboration between teachers and students and connecting friends. Designed for accessibility and ease of use, online education application supports continuous learning and fosters a community of engaged learners and educators.</p>                            
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>technologies used - <span>xml,java,firebase</span></li>
+                                <li>Role - <span>Frontend and Backend</span></li>
+                                <li>github link - <span><a href="#" target="_blank">https://github.com/MansiLadani79/online-education</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/2 (2).jpg" alt="portfolio">
+                    </div>
+                    <h3 class="portfolio-item-title">personal portfolio website</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Welcome to the personal portfolio of Mansi Ladani. This website showcases my journey and accomplishments as an innovative professional in online education. Here, you'll find insights into my expertise, skills, and contributions to the field. My portfolio reflects my dedication to creating accessible and engaging educational experiences for students across multiple languages and mediums. Explore my work and learn more about my passion for leveraging technology to enhance learning.</p>                            
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>technologies used - <span>HTML , CSS , JavaScript</span></li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>github link - <span><a href="#" target="_blank">https://github.com/MansiLadani79/PRODIGY_WD_04</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/3 (2).jpg" alt="portfolio">
+                    </div>
+                    <h3 class="portfolio-item-title"> responsive landing page</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>I have designed and developed a responsive landing page that showcases my expertise in creating visually appealing and user-friendly web interfaces. This landing page adapts seamlessly to different screen sizes and devices, ensuring an optimal user experience whether viewed on a desktop, tablet, or mobile phone. With a focus on modern design principles and functionality, this project highlights my skills in HTML, CSS, and JavaScript, as well as my commitment to delivering high-quality web solutions.
+
+                            </p>                            
+                        </div>
+                        <div class="general-info">
+                            <ul>
+        
+                                <li>technologies used - <span>Html, Css, JavaScript</span></li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>github link - <span><a href="#" target="_blank">https://github.com/MansiLadani79/PRODIGY_WD_01</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/4.jpg" alt="portfolio">
+                    </div>
+                    <h3 class="portfolio-item-title"> Tic-Tac-Toe website</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>I present a Tic-Tac-Toe website that I designed and developed to showcase my skills in web development and game design. This interactive project allows users to enjoy the classic game of Tic-Tac-Toe with a sleek, user-friendly interface. Built using HTML, CSS, and JavaScript, the website features responsive design, smooth gameplay, and a minimalist aesthetic. This project demonstrates my ability to create engaging web applications that are both functional and enjoyable to use.</p>                            
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>4 Dec 2020</span></li>
+                                <li>technologies used - <span>Html, Css, Javascript</span></li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>github link - <span><a href="#" target="_blank">https://github.com/MansiLadani79/PRODIGY_WD_03</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/5.jpg" alt="portfolio">
+                    </div>
+                    <h3 class="portfolio-item-title">Stopwatch Web Application</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>I present a Stopwatch Web Application designed to accurately measure and record time intervals. Utilizing HTML, CSS, and JavaScript, this application provides a clean and intuitive interface for starting, pausing, and resetting the stopwatch, as well as tracking and displaying lap times. The application is fully responsive, ensuring a seamless user experience across various devices. This project highlights my skills in front-end development and my ability to create interactive, user-friendly web applications.</p>                            
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                               
+                                <li>technologies used - <span>Html, Css, Javascript</span></li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>github link - <span><a href="#" target="_blank">https://github.com/MansiLadani79/PRODIGY_WD_02</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+                <!-- portfolio item start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/6.jpg" alt="portfolio">
+                    </div>
+                    <h3 class="portfolio-item-title">Weather website</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p> I developed a Weather App that I developed to fetch and display real-time weather data. By utilizing a weather API, this web application provides current weather conditions, temperature, and other relevant information based on the user's location or a user-inputted location. This project demonstrates my skills in integrating APIs, as well as my ability to create dynamic and user-friendly web applications that deliver timely and useful information.</p>                            
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                
+                                <li>technologies used - <span>Html, Css, Javacript</span></li>
+                                <li>Role - <span>Frontend</span></li> 
+                                <li>github link - <span><a href="#" target="_blank">https://github.com/MansiLadani79/PRODIGY_WD_05</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio item end -->
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end --> 
+
+    <!-- contact section start --> 
+    <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>contact me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" placeholder="Name" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Subject" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="Message" class="input-control" required></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="btn">send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>mansiladani79@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <p>91 7434928577</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>follow me</h3>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-dribble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end --> 
+
+</div>
+<!-- main end -->
+
+<!-- portfolio item detail popup start -->
+<div class="portfolio-popup">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                <div class="pp-thumbnail">
+                    <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+                </div>
+                <h3></h3>
+            </div>
+            <div class="pp-body">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- portfolio item detail popup end -->
+
+<script src="script.js"></script>
+</body>
+</html>
